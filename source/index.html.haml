@@ -1,8 +1,11 @@
 ---
 title: Welcome to Middleman
 ---
-.welcome
-  .logo= image_tag "middleman-logo.svg"
-  %h1 Middleman is Running
-  %p.doc
-    = link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank"
+%h1 ブログタイトル
+
+%article
+  #{blog.articles.size}件
+  - blog.articles[0...5].each do |article|
+    = link_to article.url do
+      %h2= article.title
+      %time= article.date.strftime('%Y年%-m月%-d日')
