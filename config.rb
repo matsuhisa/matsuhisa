@@ -2,11 +2,10 @@ Time.zone = "Tokyo"
 
 activate :blog do |blog|
   blog.per_page          = 1
-  blog.permalink         = "/articles/{title}"
+  blog.permalink         = "/articles/{title}.html"
   blog.default_extension = ".md"
   blog.sources           = 'articles/{title}.html'
 end
-activate :directory_indexes
 
 configure :development do
   activate :livereload
