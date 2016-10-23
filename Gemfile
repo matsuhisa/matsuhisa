@@ -14,3 +14,4 @@ gem 'middleman-livereload'
 gem "middleman-blog"
 
 gem 'redcarpet'
+gem 'faml'
