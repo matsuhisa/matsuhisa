@@ -45,3 +45,5 @@ end
 
 set :markdown_engine, :redcarpet
 set :markdown, tables: true, autolink: true, fenced_code_blocks: true
+
+set :haml, { ugly: true, format: :html5 }
