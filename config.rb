@@ -42,3 +42,6 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+set :markdown_engine, :redcarpet
+set :markdown, tables: true, autolink: true, fenced_code_blocks: true
