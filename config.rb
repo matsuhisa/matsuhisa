@@ -5,7 +5,8 @@ activate :blog do |blog|
   blog.permalink         = '/articles/{title}.html'
   blog.default_extension = '.md'
   blog.sources           = 'articles/{title}.html'
-  blog.taglink           = '/tags/{tag}.html'
+  blog.taglink           = 'tags/{tag}.html'
+  blog.tag_template      = "tag.html"
 end
 
 configure :development do
