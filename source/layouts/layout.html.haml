@@ -7,7 +7,24 @@
       %title= current_page.data.title
     - else
       %title ブログタイトル
+
     = stylesheet_link_tag :site
     = javascript_include_tag :all
+
+    %link{rel: 'canonical', href: current_path}
+    %meta{name: 'description', content: current_page.data.description ? "#{current_page.data.description}":''}
+
+    %meta{property: 'og:site_name', content: ''}
+    %meta{property: 'og:title', content: current_page.data.title ? "#{current_page.data.title}":''}
+    %meta{property: 'og:image', content: current_page.data.image ? "#{current_page.data.image}":''}
+    %meta{property: 'og:description', content: current_page.data.description ? "#{current_page.data.description}":''}
+    %meta{property: 'og:url', content: ''}
+
+    %meta{name: 'twitter:card', content: 'summary_large_image'}
+    %meta{name: 'twitter:site', content: ''}
+    %meta{name: 'twitter:title', content: current_page.data.title ? "#{current_page.data.title}":''}
+    %meta{name: 'twitter:image', content: current_page.data.image ? "#{current_page.data.image}":''}
+    %meta{name: 'twitter:description', content: current_page.data.description ? "#{current_page.data.description}":''}
+
   %body
     = yield
