@@ -1,1 +1,8 @@
+---
+title: tagname
+---
 %h1= tagname
+
+%article
+  - blog.tags[tagname].each do |article|
+    = partial 'article', locals: {article: article}

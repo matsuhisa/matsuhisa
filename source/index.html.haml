@@ -6,9 +6,4 @@ title: Welcome to Middleman
 %article
   #{blog.articles.size}件
   - blog.articles[0...5].each do |article|
-    = link_to article.url do
-      %h2= article.title
-      %time= article.date.strftime('%Y年%-m月%-d日')
-    %ul
-      - article.tags.each do |tag|
-        = link_to tag, tag_path(tag)
+    = partial 'article', locals: {article: article}
