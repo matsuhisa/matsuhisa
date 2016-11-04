@@ -2,9 +2,9 @@ Time.zone = "Tokyo"
 
 activate :blog do |blog|
   blog.per_page          = 1
-  blog.permalink         = '/articles/{title}.html'
+  blog.permalink         = '/articles/{year}/{month}/{title}.html'
   blog.default_extension = '.md'
-  blog.sources           = 'articles/{title}.html'
+  blog.sources           = 'articles/{year}/{month}/{title}.html'
   blog.taglink           = 'tags/{tag}.html'
   blog.tag_template      = "tag.html"
 end
