@@ -3,6 +3,7 @@
   %head
     %meta{content: 'IE=edge', 'http-equiv': 'X-UA-Compatible'}
     %meta{charset: 'utf-8'}
+    %meta{name: "viewport", content: "width=device-width,minimum-scale=1,initial-scale=1"}
     - if current_page.data.title
       %title= "#{current_page.data.title} | ブログタイトル"
     - else
@@ -27,4 +28,8 @@
     %meta{name: 'twitter:description', content: current_page.data.description ? "#{current_page.data.description}":''}
 
   %body
+
+    - if current_page.data.title
+      %h1= current_page.data.title
+
     = yield
