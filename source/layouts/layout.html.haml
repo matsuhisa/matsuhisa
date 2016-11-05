@@ -28,8 +28,17 @@
     %meta{name: 'twitter:description', content: current_page.data.description ? "#{current_page.data.description}":''}
 
   %body
+    %p= link_to "ブログタイトル", "/"
 
     - if current_page.data.title
       %h1= current_page.data.title
 
     = yield
+
+    %h2 最新の記事
+    %article
+      #{blog.articles.size}件
+      - blog.articles[0...5].each do |article|
+        = partial 'article', locals: {article: article}
+
+    
