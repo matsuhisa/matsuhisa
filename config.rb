@@ -20,3 +20,8 @@ set :markdown_engine, :redcarpet
 set :markdown, tables: true, autolink: true, fenced_code_blocks: true
 
 set :haml, { ugly: true, format: :html5 }
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.branch = 'master'
+end
