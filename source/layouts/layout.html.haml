@@ -33,12 +33,11 @@
     - if current_page.data.title
       %h1= current_page.data.title
 
-    = yield
+    .article
+      = yield
 
     %h2 最新の記事
     %article
       #{blog.articles.size}件
       - blog.articles[0...5].each do |article|
         = partial 'article', locals: {article: article}
-
-    
