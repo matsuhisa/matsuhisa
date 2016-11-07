@@ -1,6 +1,19 @@
 @charset "utf-8";
 
+@import "normalize";
+
+h1 {
+  font-size: 1.4em;
+  line-height: 1.2;
+}
+
 .article {
+
+  h2 {
+	  font-size: 1.2em;
+	  line-height: 1.2;
+  }
+
   img {
     max-width: 100%;
   }
