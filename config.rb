@@ -13,15 +13,15 @@ configure :development do
   activate :livereload
 end
 
-configure :build do
-end
-
 set :markdown_engine, :redcarpet
 set :markdown, tables: true, autolink: true, fenced_code_blocks: true
 
 set :haml, { ugly: true, format: :html5 }
 
+configure :build do
+end
+
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.branch = 'master'
+  deploy.branch = 'gh-pages'
 end
