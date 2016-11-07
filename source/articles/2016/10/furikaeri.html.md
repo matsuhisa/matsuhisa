@@ -3,8 +3,8 @@ title: 「「ふりかえり」による現場改善の事例とその可能性�
 description: 永和システムマネジメントで開催された「「ふりかえり」による現場改善の事例とその可能性」に参加した時のメモ
 date: 2016/10/26
 image: /images/2016/20161026.jpg
-category: 勉強会
-tags: 勉強会, メモ
+category: study
+tags: study, memo
 ---
 
 「[「ふりかえり」による現場改善の事例とその可能性 - 永和システムマネジメント-GuildWorks](https://esminc-guildworks.doorkeeper.jp/events/52334)」に、参加しました。
