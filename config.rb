@@ -23,7 +23,7 @@ end
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  #deploy.branch = 'gh-pages'
   deploy.branch = 'master'
+  # git remote add public git@github.com:matsuhisa/matsuhisa.github.io.git
   deploy.remote = 'public'
 end
