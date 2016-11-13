@@ -14,9 +14,10 @@ configure :development do
 end
 
 set :markdown_engine, :redcarpet
-set :markdown, tables: true, autolink: true, fenced_code_blocks: true
-
+set :markdown, tables: true, autolink: true, fenced_code_blocks: true, smartypants: true
 set :haml, { ugly: true, format: :html5 }
+
+activate :syntax, line_numbers: false
 
 configure :build do
 end

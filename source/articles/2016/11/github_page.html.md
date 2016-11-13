@@ -38,13 +38,13 @@ Middleman のインストールや利用方法については、ここでは特�
 
 `matsuhisa.github.io` を remote 先として追加します
 
-```
+```bash
 git remote add public git@github.com:matsuhisa/matsuhisa.github.io.git
 ```
 
 Middleman の config.rb に下記を追加します
 
-```
+```ruby
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'master'
