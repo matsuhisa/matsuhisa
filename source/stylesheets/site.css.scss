@@ -4,8 +4,9 @@
 @import "variable";
 
 body {
-  color: $font-color;
+  color: $base-font-color;
   line-height: $base-line-height;
+  padding: 0.2em;
 }
 
 h1 {
@@ -16,11 +17,23 @@ h1 {
 .article {
 
   h2 {
-	  font-size: $font-size-lerge;
-	  line-height: 1.2;
+    font-size: $font-size-lerge;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: $font-size-lerge;
+    font-weight: normal;
+    line-height: 1.2;
   }
 
   img {
     max-width: 100%;
+  }
+
+  pre {
+    padding: 0.4em;
+    background-color: $background-color;
   }
 }
