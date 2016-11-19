@@ -1,16 +1,19 @@
 // color
 $white: #ffffff;
 
+$base-color: #439CB2;
+
 $base-font-color: #555;
 $base-background-color: #555;
 $background-color: lighten($base-background-color, 60%);
-
 
 // font-size
 $font-size: 16px;
 $font-size-small: $font-size * 0.8;
 $font-size-lerge: $font-size * 1.2;
 $font-size-max-lerge: $font-size * 1.4;
+
+$border-base-color: $base-color;
 
 // line-height
 $base-line-height: 1.5;

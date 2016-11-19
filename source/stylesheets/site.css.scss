@@ -1,27 +1,42 @@
 @charset "utf-8";
 
 @import "normalize";
-@import "highlighting";
 @import "variable";
+@import "highlighting";
+@import "fonts";
+
+.border {
+}
+
+// --------------
+a {
+  text-decoration: none;
+  color: $base-font-color;
+}
 
 body {
   color: $base-font-color;
   line-height: $base-line-height;
-  padding: 0.2em;
-  word-wrap: break-word 
+  padding: 0.4em;
+  word-wrap: break-word
 }
 
 h1 {
   font-size: $font-size-max-lerge;
   line-height: 1.2;
+  padding-bottom: 0.2em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid $border-base-color;
 }
 
-.article {
+// --------------
 
+.article {
   h2 {
     font-size: $font-size-lerge;
     font-weight: bold;
     line-height: 1.2;
+    border-bottom: 1px solid $border-base-color;
   }
 
   h3 {

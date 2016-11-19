@@ -1,6 +1,7 @@
 %h1 ブログタイトル
 
-%article
-  #{blog.articles.size}件
+%section
   - blog.articles[0...5].each do |article|
     = partial 'article', locals: {article: article}
+
+#{blog.articles.size}件

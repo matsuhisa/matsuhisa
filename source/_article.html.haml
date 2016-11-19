@@ -1,6 +1,10 @@
-= link_to article.url do
-  %h2= article.title
-  %time= article.date.strftime('%Y年%-m月%-d日')
-%ul
-  - article.tags.each do |tag|
-    = link_to tag, tag_path(tag)
+%article
+  
+  = link_to article.url do
+    %time.fontS= article.date.strftime('%Y年%-m月%-d日')
+    %h2.fontM= article.title
+    - if article.data.image
+      %p= image_tag article.data.image, width: '80'
+  %ul
+    - article.tags.each do |tag|
+      = link_to tag, tag_path(tag)
