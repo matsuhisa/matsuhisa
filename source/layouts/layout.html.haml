@@ -37,14 +37,13 @@
       = yield
 
     - if is_blog_article?
-      - if current_article.previous_article
-        = link_to "前の記事", current_article.previous_article.url
-
-      - if current_article.next_article
-        = link_to "次の記事", current_article.next_article.url
-
-    %h2 最新の記事
-    %article
-      #{blog.articles.size}件
+      .blog-paging
+        - if current_article.previous_article
+          .button.previous= link_to "前の記事", current_article.previous_article.url
+        - if current_article.next_article
+          .button.next= link_to "次の記事", current_article.next_article.url
+    %hr
+    %section
+      //#{blog.articles.size}件
       - blog.articles[0...5].each do |article|
         = partial 'article', locals: {article: article}

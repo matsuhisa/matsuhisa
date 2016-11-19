@@ -7,6 +7,9 @@ activate :blog do |blog|
   blog.sources           = 'articles/{year}/{month}/{title}.html'
   blog.taglink           = 'tags/{tag}.html'
   blog.tag_template      = "tag.html"
+
+  blog.paginate = true
+  blog.per_page = 5
 end
 
 configure :development do

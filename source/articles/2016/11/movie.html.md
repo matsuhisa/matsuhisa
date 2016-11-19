@@ -6,7 +6,7 @@ category: movie
 tags: movie
 ---
 
-## 「君の名は。」を見た
+## 新海誠の「君の名は。」を見た
 
 仕事帰りに、近所の映画館で「[君の名は。](http://www.kiminona.com/index.html)」を見ました。
 

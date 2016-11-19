@@ -1,10 +1,8 @@
 %article
-  
   = link_to article.url do
-    %time.fontS= article.date.strftime('%Y年%-m月%-d日')
-    %h2.fontM= article.title
-    - if article.data.image
-      %p= image_tag article.data.image, width: '80'
-  %ul
-    - article.tags.each do |tag|
-      = link_to tag, tag_path(tag)
+    %time= article.date.strftime('%Y年%-m月%-d日')
+    %h2= article.title
+    .article-information
+      - if article.data.image
+        .article-information__image= image_tag article.data.image, width: '80'
+      .article-information__description= article.data.description.size >= 70 ? "#{article.data.description[0,70]}..." : article.data.description
