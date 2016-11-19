@@ -1,6 +1,6 @@
 ---
 title: Middleman のブログ投稿
-date: 2016/10/3
+date: 2116/10/3
 description: 投稿についての説明です
 image: https://c1.staticflickr.com/6/5490/30325869752_bcd6a738db_c.jpg
 category: work
