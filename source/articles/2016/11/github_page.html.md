@@ -3,7 +3,7 @@ title: GitHub Pages の設定をしてみた
 description: GitHub Pages の設定をしてみました。はまったことが多かったのでメモ
 date: 2016/11/10
 category: tech
-tags: github, memo
+tags: github, memo, tech
 ---
 
 [GitHub Pages](https://pages.github.com/) の設定をしてみました。はまったことが多かったのでメモです。
