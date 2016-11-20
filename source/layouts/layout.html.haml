@@ -38,12 +38,25 @@
 
     - if is_blog_article?
       .blog-paging
-        - if current_article.previous_article
-          .button.previous= link_to "前の記事", current_article.previous_article.url
-        - if current_article.next_article
-          .button.next= link_to "次の記事", current_article.next_article.url
+        .button.previous
+          - if current_article.previous_article
+            = link_to "前の記事", current_article.previous_article.url
+        .button.next
+          - if current_article.next_article
+            = link_to "次の記事", current_article.next_article.url
+
     %hr
+
+    %h2 最新記事（3件）
     %section
-      //#{blog.articles.size}件
-      - blog.articles[0...5].each do |article|
+      - blog.articles[0...3].each do |article|
         = partial 'article', locals: {article: article}
+
+    %footer
+      %ul
+        %li 筆者について
+        %li= link_to "twitter", 'https://twitter.com/kamonegi1977'
+        %li= link_to "github", 'https://github.com/matsuhisa'
+        %li= link_to "Qiita", 'http://qiita.com/matsuhisa_h'
+        %li= link_to "500px", 'https://500px.com/matsuhisa'
+        %li= link_to "flickr", 'https://www.flickr.com/photos/matsuhisa/'

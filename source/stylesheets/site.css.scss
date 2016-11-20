@@ -70,14 +70,13 @@ article {
 
   .button {
     text-align: center;
-    text-decoration: underline;
-
     max-width: 5em;
     padding: .8em;
     flex: 1;
 
-    // border: 1px solid #e7e7e7;
-    // border-radius: .3em;
+    a {
+      text-decoration: underline;
+    }
   }
 }
 
