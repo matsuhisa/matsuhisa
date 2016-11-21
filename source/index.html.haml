@@ -17,4 +17,10 @@ pageable: true
     - if next_page
       = link_to "次の記事", next_page.url
 
+%h2 タグ一覧
+
+%ul
+  - blog.tags.each do |tag, articles|
+    %li= link_to "# #{tag}", tag_path(tag)
+
 //#{blog.articles.size}件

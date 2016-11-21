@@ -1,8 +1,19 @@
 ---
-title: tagname
+pageable: true
 ---
-%h1= tagname
+- current_page.data.title = "#{tagname} のについて"
 
-%article
+%h2 最新記事
+
+%section
   - blog.tags[tagname].each do |article|
     = partial 'article', locals: {article: article}
+
+.blog-paging
+  .button.previous
+    - if prev_page
+      = link_to "前の記事", prev_page.url
+  .button #{page_number}/#{num_pages}
+  .button.next
+    - if next_page
+      = link_to "次の記事", next_page.url
