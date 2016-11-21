@@ -31,3 +31,6 @@ activate :deploy do |deploy|
   # git remote add public git@github.com:matsuhisa/matsuhisa.github.io.git
   deploy.remote = 'public'
 end
+
+set :site_title, 'メモ帳'
+set :site_url, 'https://matsuhisa.github.io/'
