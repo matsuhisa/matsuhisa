@@ -50,10 +50,14 @@ article {
 
     &__image {
       max-width: 80px;
+      max-height: 80px;
+      overflow: hidden;
       margin-right: .5em;
       flex: 1;
+
       img {
         border-radius: .3em;
+
       }
     }
 
