@@ -26,6 +26,17 @@ h1 {
   border-bottom: 1px solid $border-base-color;
 }
 
+.tags {
+  padding: 0;
+  margin: 0;
+  .tag {
+    display: inline-block;
+    padding: .2em;
+    margin-bottom: .4em;
+    background-color: $background-color;
+  }
+}
+
 article {
   margin-bottom: .5em;
   padding-bottom: .8em;
