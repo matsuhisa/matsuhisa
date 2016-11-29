@@ -1,7 +1,7 @@
 ---
 title: 外苑前のいちょう並木を見た
 description: 外苑前のいちょう並木を見みました。株式会社カラー10周年記念展の帰りに、外苑前によってみました
-date: 2016/11/27
+date: 2016/11/27 13:00:00
 image: /images/2016/20161127_2.jpg
 category: memo
 tags: memo, life
