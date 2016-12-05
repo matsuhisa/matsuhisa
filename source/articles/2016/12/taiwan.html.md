@@ -4,7 +4,7 @@ description: 「台湾かあさんの味とレシピ」出版記念イベント�
 date: 2016/12/03
 image: 'images/2016/20161203.jpg'
 category: taiwan
-tags: books, food, taiwan
+tags: food, taiwan
 ---
 
 「[台湾かあさんの味とレシピ](https://www.facebook.com/events/1608097602820531/)」出版記念イベントで代田橋に行ってきました。台湾に行くと、ついつい食べてしまう魯肉飯だとかいただきました。
