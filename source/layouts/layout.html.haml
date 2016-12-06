@@ -47,10 +47,19 @@
 
     %hr
 
+    %h2 タグ一覧
+    %ul.tags
+      - blog.tags.each do |tag, articles|
+        %li.tag= link_to "# #{tag}", tag_path(tag)
+
+    %hr
+
     %h2 最新記事（3件）
     %section
       - blog.articles[0...3].each do |article|
         = partial 'article', locals: {article: article}
+
+    %hr
 
     %footer
       %ul
