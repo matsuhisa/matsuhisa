@@ -5,6 +5,57 @@
 @import "highlighting";
 @import "fonts";
 
+// $scroll-padding 2px は、iPhone対応のため
+@mixin layout-horizontal ($base-height: auto, $scroll-height: auto, $scroll-padding: 2px 0, $item-width: 200px, $item-margin: 10px){
+  overflow: hidden;
+  width: 100%;
+  height: $base-height;
+
+  &__scroll {
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    height: $scroll-height;
+    padding: $scroll-padding;
+
+    &__list {
+      display: inline-table;
+      overflow-x: auto;
+      padding: 0;
+      margin: 0 0 0 0 - $item-margin;
+      border-collapse: separate;
+      border-spacing: $item-margin 0;
+
+      li {
+        display: table-cell;
+        min-width: $item-width;
+        max-width: $item-width;
+        @content;
+      }
+    }
+  }
+}
+
+.item-horizontal {
+  @include layout-horizontal ($scroll-padding: 10px 0) {
+    padding: .4em;
+    background-color: $background-color;
+    border: 1px solid $background-color;
+    border-radius: 4px;
+  };
+}
+
+.article-horizontal {
+  time {
+    @extend .fontS;
+  }
+  h2 {
+    @extend .fontM;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 // --------------
 a {
   text-decoration: none;
@@ -37,7 +88,7 @@ h1 {
   }
 }
 
-article {
+.article {
   margin-bottom: .5em;
   padding-bottom: .8em;
   border-bottom: 1px solid #e7e7e7;

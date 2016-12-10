@@ -47,17 +47,18 @@
 
     %hr
 
+    - if is_blog_article?
+      %h2 最新記事（10件）
+      .item-horizontal
+        .item-horizontal__scroll
+          %ul.item-horizontal__scroll__list
+            - blog.articles[0...10].each.with_index(1) do |article, index|
+              %li{id: "item_#{index}"}= partial 'article_horizontal', locals: {article: article}
+
     %h2 タグ一覧
     %ul.tags
       - blog.tags.each do |tag, articles|
         %li.tag= link_to "# #{tag}", tag_path(tag)
-
-    %hr
-
-    %h2 最新記事（3件）
-    %section
-      - blog.articles[0...3].each do |article|
-        = partial 'article', locals: {article: article}
 
     %hr
 
