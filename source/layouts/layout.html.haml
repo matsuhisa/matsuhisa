@@ -49,7 +49,10 @@
           - if current_article.next_article
             = link_to "次の記事", current_article.next_article.url
 
-    %hr
+    - if is_blog_article?
+      %ul.tags
+        - current_page.data.tags.split(", ").each do |tag|
+          %li.tag= link_to "# #{tag}", tag_path(tag)
 
     - if is_blog_article?
       %h2 最新記事（10件）
