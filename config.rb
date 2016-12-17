@@ -32,5 +32,5 @@ activate :deploy do |deploy|
   deploy.remote = 'public'
 end
 
-set :site_title, 'メモ帳'
+set :site_title, 'めも帖'
 set :site_url, 'https://matsuhisa.github.io/'
