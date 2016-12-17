@@ -28,13 +28,13 @@
     %meta{name: 'twitter:description', content: current_page.data.description ? "#{current_page.data.description}":''}
 
   %body
-    %p= link_to "#{config[:site_title]}", "/"
+  %p.blog_title= link_to "#{config[:site_title]}", "/"
 
+  .article
     - if current_page.data.title
       %h1= current_page.data.title
 
-    .article
-      = yield
+    = yield
 
     - if is_blog_article?
       .blog-paging

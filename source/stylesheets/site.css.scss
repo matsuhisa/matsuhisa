@@ -2,59 +2,8 @@
 
 @import "normalize";
 @import "variable";
-@import "highlighting";
 @import "fonts";
-
-// $scroll-padding 2px は、iPhone対応のため
-@mixin layout-horizontal ($base-height: auto, $scroll-height: auto, $scroll-padding: 2px 0, $item-width: 200px, $item-margin: 10px){
-  overflow: hidden;
-  width: 100%;
-  height: $base-height;
-
-  &__scroll {
-    overflow-x: auto;
-    width: 100%;
-    -webkit-overflow-scrolling: touch;
-    height: $scroll-height;
-    padding: $scroll-padding;
-
-    &__list {
-      display: inline-table;
-      overflow-x: auto;
-      padding: 0;
-      margin: 0 0 0 0 - $item-margin;
-      border-collapse: separate;
-      border-spacing: $item-margin 0;
-
-      li {
-        display: table-cell;
-        min-width: $item-width;
-        max-width: $item-width;
-        @content;
-      }
-    }
-  }
-}
-
-.item-horizontal {
-  @include layout-horizontal ($scroll-padding: 10px 0) {
-    padding: .4em;
-    background-color: $background-color;
-    border: 1px solid $background-color;
-    border-radius: 4px;
-  };
-}
-
-.article-horizontal {
-  time {
-    @extend .fontS;
-  }
-  h2 {
-    @extend .fontM;
-    margin: 0;
-    padding: 0;
-  }
-}
+@import "mixin";
 
 // --------------
 a {
@@ -76,19 +25,37 @@ h1 {
   margin-bottom: 1em;
   border-bottom: 1px solid $border-base-color;
 }
-
-.tags {
+.blog_title {
+  max-width: 640px;
+  margin: 0 auto 1em;
   padding: 0;
-  margin: 0;
-  .tag {
-    display: inline-block;
-    padding: .2em;
-    margin-bottom: .4em;
+}
+
+.article {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0;
+
+  h3 {
+    font-size: $font-size-lerge;
+    font-weight: normal;
+    line-height: 1.2;
+  }
+
+  img {
+    max-width: 100%;
+    border: 1px solid $border-base-color;
+    display: block;
+    margin: 0 auto;
+  }
+
+  pre {
+    padding: .4em;
     background-color: $background-color;
   }
 }
 
-.article {
+.list-article {
   margin-bottom: .5em;
   padding-bottom: .8em;
   border-bottom: 1px solid #e7e7e7;
@@ -119,7 +86,6 @@ h1 {
 
       img {
         border-radius: .3em;
-
       }
     }
 
@@ -128,6 +94,18 @@ h1 {
       flex: 1;
     }
   }
+}
+
+.tag {
+  display: inline-block;
+  padding: .2em;
+  margin-bottom: .4em;
+  background-color: $background-color;
+}
+
+.tags {
+  padding: 0;
+  margin: 0;
 }
 
 .blog-paging {
@@ -146,26 +124,22 @@ h1 {
   }
 }
 
-
-// --------------
-
-.article {
-  h2 {
-    //border-bottom: 1px solid $border-base-color;
-  }
-
-  h3 {
-    font-size: $font-size-lerge;
-    font-weight: normal;
-    line-height: 1.2;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  pre {
+.item-horizontal {
+  @include layout-horizontal ($scroll-padding: 10px 0) {
     padding: .4em;
     background-color: $background-color;
+    border: 1px solid $background-color;
+    border-radius: 4px;
+  };
+}
+
+.article-horizontal {
+  time {
+    @extend .fontS;
+  }
+  h2 {
+    @extend .fontM;
+    margin: 0;
+    padding: 0;
   }
 }

@@ -1,0 +1,30 @@
+// $scroll-padding 2px は、iPhone対応のため
+@mixin layout-horizontal ($base-height: auto, $scroll-height: auto, $scroll-padding: 2px 0, $item-width: 200px, $item-margin: 10px){
+  overflow: hidden;
+  width: 100%;
+  height: $base-height;
+
+  &__scroll {
+    overflow-x: auto;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    height: $scroll-height;
+    padding: $scroll-padding;
+
+    &__list {
+      display: inline-table;
+      overflow-x: auto;
+      padding: 0;
+      margin: 0 0 0 0 - $item-margin;
+      border-collapse: separate;
+      border-spacing: $item-margin 0;
+
+      li {
+        display: table-cell;
+        min-width: $item-width;
+        max-width: $item-width;
+        @content;
+      }
+    }
+  }
+}
