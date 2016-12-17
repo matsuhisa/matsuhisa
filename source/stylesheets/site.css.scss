@@ -25,17 +25,20 @@ h1 {
   margin-bottom: 1em;
   border-bottom: 1px solid $border-base-color;
 }
+
 .blog_title {
   max-width: 640px;
   margin: 0 auto 1em;
   padding: 0;
 }
 
-.article {
+.wrapper {
   max-width: 640px;
   margin: 0 auto;
   padding: 0;
+}
 
+.article {
   h3 {
     font-size: $font-size-lerge;
     font-weight: normal;
@@ -44,7 +47,7 @@ h1 {
 
   img {
     max-width: 100%;
-    border: 1px solid $border-base-color;
+    border: 1px solid #eee;
     display: block;
     margin: 0 auto;
   }

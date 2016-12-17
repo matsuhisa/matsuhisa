@@ -30,11 +30,15 @@
   %body
   %p.blog_title= link_to "#{config[:site_title]}", "/"
 
-  .article
+  .wrapper
     - if current_page.data.title
       %h1= current_page.data.title
 
-    = yield
+    - if is_blog_article?
+      .article
+        = yield
+    - else
+      = yield
 
     - if is_blog_article?
       .blog-paging
