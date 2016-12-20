@@ -1,6 +1,6 @@
 ---
 title: 「育てる技術」を読みました
-description: 「育てる技術」を読みました。ここ
+description: 「育てる技術」を読みました。行動に着目したマネジメント方法で育成について書かれた1冊
 date: 2016/12/16
 image: 'images/2016/book_4822249514.jpg'
 category: books
