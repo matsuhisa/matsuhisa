@@ -12,6 +12,10 @@ activate :blog do |blog|
   blog.per_page = 5
 end
 
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-89508188-1'
+end
+
 configure :development do
   activate :livereload
 end
