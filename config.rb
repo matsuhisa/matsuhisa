@@ -33,4 +33,4 @@ activate :deploy do |deploy|
 end
 
 set :site_title, 'めも帖'
-set :site_url, 'https://matsuhisa.github.io/'
+set :site_url, 'http://a-walker.me/'
