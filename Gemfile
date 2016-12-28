@@ -12,6 +12,8 @@ gem 'middleman-syntax'
 
 gem 'redcarpet'
 gem 'faml'
+
+gem 'middleman-google-analytics'
 #gem 'less'
 #gem 'therubyracer'
 #gem 'builder'
