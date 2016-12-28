@@ -1,7 +1,7 @@
 ---
 title: 「<チーム編>教える技術 行動科学で成果が上がる組織をつくる!」を読みました
 description: 「<チーム編>教える技術 行動科学で成果が上がる組織をつくる!」を読みました。
-date: 2017/12/20
+date: 2016/12/20
 image: 'images/2016/book_4761270187.jpg'
 category: books
 tags: books

@@ -4,7 +4,7 @@ description: 「アジャイル・ユーザビリティ ―ユーザエクスペ
 date: 2016/12/05
 image: 'images/2016/book_B01IGW59W2.jpg'
 category: books
-tags: books, memo, design
+tags: books, design
 ---
 
 ## まとめると

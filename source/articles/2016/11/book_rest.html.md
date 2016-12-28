@@ -4,7 +4,7 @@ description: 「世界のエリートがやっている 最高の休息法」を
 date: 2017/11/22
 image: 'images/2016/book_B01J2ZLLN8.jpg'
 category: books
-tags: books, memo
+tags: books
 ---
 
 ## まとめると

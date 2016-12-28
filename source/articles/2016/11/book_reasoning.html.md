@@ -4,7 +4,7 @@ description: 「マンガでやさしくわかる論理思考」を読みまし�
 date: 2016/11/23
 image: 'images/2016/book_B00STC127Q.jpg'
 category: books
-tags: books, memo
+tags: books
 ---
 
 ## 読んだきっかけ

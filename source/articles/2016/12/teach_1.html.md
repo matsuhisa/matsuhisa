@@ -1,7 +1,7 @@
 ---
 title: 「行動科学を使ってできる人が育つ! 教える技術」を読みました
 description: 「行動科学を使ってできる人が育つ! 教える技術」を読みました。
-date: 2017/12/07
+date: 2016/12/07
 image: 'images/2016/book_4761267550.jpg'
 category: books
 tags: books

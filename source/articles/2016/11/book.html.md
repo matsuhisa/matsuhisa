@@ -4,7 +4,7 @@ description: 数学ガールの秘密ノート/やさしい統計を読みまし
 date: 2016/11/21
 image: 'images/2016/book_4797387122.jpg'
 category: books
-tags: books, memo
+tags: books
 ---
 
 ## まとめると

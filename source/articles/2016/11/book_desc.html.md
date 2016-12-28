@@ -4,7 +4,7 @@ description: 「マンガでやさしくわかるアサーション」を読み�
 date: 2016/11/22
 image: 'images/2016/book_B017BE9O4A.jpg'
 category: books
-tags: books, memo
+tags: books
 ---
 
 ## まとめると
