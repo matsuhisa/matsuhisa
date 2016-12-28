@@ -36,6 +36,7 @@
 
     - if is_blog_article?
       .article
+        %time= current_article.date.strftime('%Y年%-m月%-d日')
         = yield
     - else
       = yield
