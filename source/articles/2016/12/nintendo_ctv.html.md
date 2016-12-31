@@ -3,8 +3,8 @@ title: ニンテンドークラシックミニが家に届いた
 description: 奥さんがニンテンドークラシックミニを買ったので、家に届いたので早速やってみた
 date: 2016/12/25
 image: /images/2016/20161225_1.jpg
-category: study
-tags: study
+category: gadget
+tags: gadget
 ---
 
 奥さんがニンテンドークラシックミニを買って家に届きました。
