@@ -3,10 +3,8 @@ pageable: true
 ---
 - current_page.data.title = "#{tagname} について"
 
-%h2 最新記事
-
 %section
-  - blog.tags[tagname].each do |article|
+  - page_articles.each do |article|
     = partial 'article', locals: {article: article}
 
 .blog-paging
