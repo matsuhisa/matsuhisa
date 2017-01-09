@@ -32,3 +32,9 @@ tags: books
 ## Amazon
 
 [![](http://images-jp.amazon.com/images/P/B01L8SEVYI.09.MAIN._SCLZZZZZZZ_.jpg)](https://www.amazon.co.jp/dp/B01L8SEVYI/)
+
+## 気になったもの
+
+- [俺が悪かった。素直に間違いを認めるから、もうサービスクラスとか作るのは止めてくれ](http://qiita.com/joker1007/items/25de535cd8bb2857a685)
+- [てめえらのRailsはオブジェクト指向じゃねえ！まずはCallbackクラス、Validatorクラスを活用しろ！](http://qiita.com/joker1007/items/2a03500017766bdb0234)
+- [Rubyの凄く面白い特徴をRailsのコードを例に解説](http://qiita.com/shinya_131/items/901b9c70642b1e1f9227)
