@@ -33,6 +33,7 @@ activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'master'
   # git remote add public git@github.com:matsuhisa/matsuhisa.github.io.git
+  deploy.build_before = true
   deploy.remote = 'public'
 end
 
