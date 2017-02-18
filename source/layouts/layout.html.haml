@@ -12,7 +12,7 @@
     = stylesheet_link_tag :site
     = javascript_include_tag :all
 
-    %link{rel: 'canonical', href: current_path}
+    %link{rel: 'canonical', href: "#{config[:site_url]}#{current_path}"}
     %meta{name: 'description', content: current_page.data.description ? "#{current_page.data.description}":''}
 
     %meta{property: 'og:site_name', content: ''}
