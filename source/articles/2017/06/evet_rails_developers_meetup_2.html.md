@@ -1,11 +1,14 @@
 ---
 title: 「Rails Developers Meetup 2」に参加しました&nbsp;#railsdm
-description: 「Rails Developers Meetup 2」に参加してきました
+description: クラシルの人の話って珍しい？と思って「Rails Developers Meetup 2」に参加してきました
 image: '/images/2017/6/evet_rails_developers_meetup_2.jpg'
 date: 2017/06/22
 category: event
 tags: event, study
 ---
+
+クラシルの人の話って珍しい？と思って「Rails Developers Meetup 2」に参加してきました。
+あと「ふつうのRailsアプリケーション開発」が気になって。
 
 ## クラシルの webサイトをちょっとした改善で100倍速にした話
 
