@@ -4,7 +4,7 @@ description: クラシルの人の話って珍しい？と思って「Rails Deve
 image: '/images/2017/6/evet_rails_developers_meetup_2.jpg'
 date: 2017/06/22
 category: event
-tags: event, study
+tags: event, study, ruby
 ---
 
 クラシルの人の話って珍しい？と思って「Rails Developers Meetup 2」に参加してきました。

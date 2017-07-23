@@ -3,7 +3,7 @@ title: 「表参道.rb 23 Ruby/Railsの学び方」に参加しました&nbsp;#o
 description: 地域 Ruby の1つである表参道.rbに参加してきました
 date: 2017/06/01
 category: work
-tags: work, study
+tags: work, study, ruby
 ---
 
 地域 Ruby の1つである表参道.rbに参加してきました。今回は「表参道.rb 23 Ruby/Railsの学び方」ということで気になって参加しました。  

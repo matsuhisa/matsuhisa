@@ -4,7 +4,7 @@ description: 「MedBeer -Rails 5.1での開発について-」に参加しまし
 image: '/images/2017/6/med_beer.jpg'
 date: 2017/06/28
 category: event
-tags: event, study
+tags: event, study, ruby
 ---
 
 「MedBeer -Rails 5.1での開発について-」に参加しました。
