@@ -8,6 +8,14 @@ tags: rails, event, ruby
 
 「[Rails Developers Meetup #6](https://techplay.jp/event/631425)」に「Railsでつくる 画像アップロード 2017」という話で登壇しました。
 
+<script async class="speakerdeck-embed" data-id="25373a713001401da4005d4a28c03d60" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+実際にファイルアップロード処理を作りながら書いてました。なので、この資料の話は春頃に遡るという裏話があります。  
+
+作って見ると、簡単そうに見えてすごくいろいろやらないといけないのが、画像アップロードなんだと思います。画像アップロードをOJTでやるのいいのでは！と思ったけれど、最終問題ぐらいのイメージです。やらないといけないことが本当にいっぱいある。
+
+UI を絡めつつの話にしたのは、技術的なことは色々な人が書いているけれど、UI視点からの話はないなあ...（設計のことを考えたらUIから考えるのは悪手だと思う）と思って書いてみました。
+
 ## Railsエンジニアの交換型インターンシップについて
 
 ウノウの頃のブログをよく読んでいたので、「この人が！」という気持ちで見てました。
@@ -19,15 +27,14 @@ tags: rails, event, ruby
 
 ## Railsコントリビューション
 
-すっかり朝刊の人で...
+すっかり朝刊の人で...  
 退職した会社で発表するというレアケースに遭遇されてました
 
 - [発表資料](https://docs.google.com/presentation/d/e/2PACX-1vTQx7WQDPQmvMHRyc8Pj1kP9SOqHAlmLUUGA22G7nU7qtXJsFEwYMaMPwBHWMc-dx9OZaAPl3S7pmtw/pub?slide=id.b4f67430-b485-11e7-ac30-b98182cf49a7)
 
-## How, Why, What がわからないコードの調べ方
+この後、Railsじゃないけれど、OSS にプルリクエスト出したりし始めました。
 
-## How to improve OSS Rails application
+## まとめ
 
-## Railsでつくる ファイルアップロード 2017
-
-<script async class="speakerdeck-embed" data-id="25373a713001401da4005d4a28c03d60" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+Rails Developers Meetup は、ストイックな勉強会で懇親会がないのが基本で好きです。
+毎月開催は無くなるけれど、今後もやり方を変えて続いていくと思うので応援していきたいです。
