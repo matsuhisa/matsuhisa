@@ -1,7 +1,7 @@
 ---
 title: 「エッセンシャル思考 最少の時間で成果を最大にする」を読みました
 description: 「エッセンシャル思考 最少の時間で成果を最大にする」を読みしました
-date: 2018/05/14
+date: 2017/05/14
 image: 'images/2017/5/book_B00QQKCV6E.jpg'
 category: books
 tags: books
