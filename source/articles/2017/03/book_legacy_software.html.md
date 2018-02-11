@@ -1,7 +1,7 @@
 ---
 title: 「レガシーソフトウェア改善ガイド」を読みました
 description: 「レガシーソフトウェア改善ガイド」を読みました。
-date: 2018/03/04
+date: 2017/03/04
 image: 'images/2017/3/book_B01MSLAFPT.jpg'
 category: books
 tags: books
