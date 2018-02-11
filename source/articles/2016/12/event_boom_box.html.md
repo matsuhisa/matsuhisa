@@ -1,7 +1,7 @@
 ---
 title: 「大ラジカセ展」を見てきました
 description: 「大ラジカセ展」を見てきました
-date: 2017/12/17
+date: 2016/12/17
 image: /images/2016/20161217_1.jpg
 category: event
 tags: event
