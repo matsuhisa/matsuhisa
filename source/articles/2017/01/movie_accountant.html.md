@@ -1,7 +1,7 @@
 ---
 title: 「ザ・コンサルタント」を見ました
 description: 「ザ・コンサルタント」を見ました。
-date: 2018/01/21
+date: 2017/01/21
 image: 'images/2017/1/movie_B06XK76KPQ.jpg'
 category: movie
 tags: movie
