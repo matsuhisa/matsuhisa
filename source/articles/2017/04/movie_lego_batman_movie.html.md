@@ -1,7 +1,7 @@
 ---
 title: 「レゴⓇバットマンザ・ムービー」を見ました
 description: 「レゴⓇバットマンザ・ムービー」を見ました。
-date: 2018/04/01
+date: 2017/04/01
 image: 'images/2017/4/movie_B06XNNV9T7.jpg'
 category: movie
 tags: movie

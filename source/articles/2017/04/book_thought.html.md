@@ -1,7 +1,7 @@
 ---
 title: 「思考の整理学」を読みました
 description: 「思考の整理学」を流し読みしました。
-date: 2018/04/04
+date: 2017/04/04
 image: 'images/2017/4/book_B00E5XATVS.jpg'
 category: books
 tags: books

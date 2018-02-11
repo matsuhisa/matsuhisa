@@ -1,11 +1,14 @@
 ---
 title: 「キングコング 髑髏島の巨神」を見ました
 description: 「キングコング 髑髏島の巨神」を見ました。
-date: 2018/04/23
+date: 2017/04/23
 image: 'images/2017/4/movie_B071F4H19D.jpg'
 category: movie
 tags: movie
 ---
+
+- 大雑把な作りか？と思ったけれど、思ったよりもしっかりした話の作りだった
+- 安っぽい感じはしないのはなんでだろう？
 
 ## Amazon
 
