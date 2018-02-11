@@ -1,11 +1,13 @@
 ---
 title: 「ドクター・ストレンジ」を見ました
 description: 「ドクター・ストレンジ」を見ました。
-date: 2018/02/04
+date: 2017/02/04
 image: 'images/2017/2/movie_B06XJ112LM.jpg'
 category: movie
 tags: movie
 ---
+
+いいんだけれど...なんだか腑に落ちない
 
 ## Amazon
 
