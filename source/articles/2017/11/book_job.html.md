@@ -4,7 +4,7 @@ description: 「ジョブ理論　イノベーションを予測可能にする�
 date: 2017/11/01
 image: 'images/2017/11/book_B0746JCN8B.jpg'
 category: books
-tags: books, statistics
+tags: books
 ---
 
 ## まとめると
