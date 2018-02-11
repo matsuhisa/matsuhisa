@@ -1,7 +1,7 @@
 ---
 title: 「ハクソー・リッジ」を見ました
 description: 「ハクソー・リッジ」を見ました。
-date: 2018/07/01
+date: 2017/07/01
 image: 'images/2017/7/movie_B01LTHZVSS.jpg'
 category: movie
 tags: movie

@@ -1,7 +1,7 @@
 ---
 title: 「マンガでやさしくわかる傾聴」を読みました
 description: 「マンガでやさしくわかる傾聴」を流し読みしました。
-date: 2018/04/02
+date: 2017/04/02
 image: 'images/2017/4/book_B06WV7RMJ9.jpg'
 category: books
 tags: books

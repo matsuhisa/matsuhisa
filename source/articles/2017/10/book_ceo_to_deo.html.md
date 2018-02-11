@@ -1,7 +1,7 @@
 ---
 title: 「CEOからDEOへ‐「デザインするリーダー」になる方法」を読みました
 description: 「CEOからDEOへ‐「デザインするリーダー」になる方法」を読みました
-date: 2018/10/14
+date: 2017/10/14
 image: 'images/2017/10/book_B01MRY2T5Q.jpg'
 category: books
 tags: books, design

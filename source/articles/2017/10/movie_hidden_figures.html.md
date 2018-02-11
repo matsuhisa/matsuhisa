@@ -1,7 +1,7 @@
 ---
 title: 「ドリーム」を見た
 description: 「ドリーム」を見た
-date: 2018/10/09
+date: 2017/10/09
 image: 'images/2017/10/movie_B01LTI1RHQ.jpg'
 category: movie
 tags: movie

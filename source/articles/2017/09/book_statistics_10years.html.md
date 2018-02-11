@@ -1,7 +1,7 @@
 ---
 title: 「仕事に使えるクチコミ分析[テキストマイニングと統計学をマーケティングに活用する]」を読みました
 description: 「仕事に使えるクチコミ分析[テキストマイニングと統計学をマーケティングに活用する]」を読みました
-date: 2018/9/20
+date: 2017/9/20
 image: 'images/2017/9/book_B0746BQ1WQ.jpg'
 category: books
 tags: books, statistics
