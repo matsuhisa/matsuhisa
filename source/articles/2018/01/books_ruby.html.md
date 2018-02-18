@@ -4,7 +4,7 @@ description: 「プロを目指す人のためのRuby入門」を読みました
 date: 2018/01/11
 image: 'images/2018/01/book_B077Q8BXHC.jpg'
 category: books
-tags: books, statistics
+tags: books, ruby
 ---
 
 ## まとめると
